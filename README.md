@@ -1,21 +1,13 @@
-Nginx学习笔记
-============
+# Nginx 学习笔记
 
-> 注: 如果你看到的是github的源代码,请点击[这里](http://skyao.github.io/leaning-nginx) 查看html内容.
+## 介绍
 
-Nginx学习笔记, 用于记录nginx学习过程的各种信息和心得.
+Nginx 是一个高性能的HTTP和反向代理服务器，以高稳定性、丰富的功能集、示例配置文件和低系统资源的消耗而闻名。
 
-# 章节内容
+这份学习笔记, 记录 Nginx 的学习过程和日常使用.
 
-* [长连接](documentation/keep_alive.md)
-* [Nginx官方文档](documentation/official_document.md)
-    * [nginx如何处理请求(翻译)](documentation/request_processing.md)
-    * [服务器名称(翻译)](documentation/server_name.md)
-    * [使用nginx实现HTTP负载均衡(翻译)](documentation/HTTP_load_balancer.md)
-    * [Upstream设置文档(翻译)](documentation/upstream_doc.md)
+## 导航
 
+如果看到的是 github 的源代码, 请点击下面的链接:
 
-内容陆续添加中......
-
-
-
+[Nginx学习笔记@gitbook](https://skyao.gitbooks.io/leaning-nginx/)
