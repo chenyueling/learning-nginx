@@ -1,4 +1,4 @@
-bui# Summary
+# Summary
 
 * [长连接](documentation/keep_alive.md)
 * [Nginx官方文档](documentation/official_document.md)
@@ -7,6 +7,6 @@ bui# Summary
     * [使用nginx实现HTTP负载均衡(翻译)](documentation/HTTP_load_balancer.md)
     * [Upstream设置文档(翻译)](documentation/upstream_doc.md)
 * [虚拟主机](vhost/index.md)
-
+* [全文标签总览](tags.md)
 
 
