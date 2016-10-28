@@ -1,5 +1,7 @@
 # 实战：基于域名的虚拟主机
 
+tags:实战,虚拟主机
+
 ## 前言
 
 ### 默认包含
@@ -47,7 +49,7 @@ server {
         }
 ```
 
-安装这个文档的建议，最好是在 `/etc/nginx/sites-available/` 下建立站点的配置文件，这些站点就是所谓的"可用站点"。然后在 link 到 `/etc/nginx/sites-enabled` 下开启站点，这些开启的站点就是所谓"启用站点"。
+按照这个文档的建议，最好是在 `/etc/nginx/sites-available/` 下建立站点的配置文件，这些站点就是所谓的"可用站点"。然后在 link 到 `/etc/nginx/sites-enabled` 下开启站点，这些开启的站点就是所谓"启用站点"。
 
 通过建立链接来控制可用站点的启用。
 
@@ -68,7 +70,6 @@ server {
        root /var/www/basiccloud.net;
        index index.html;
 }
-
 ```
 
 然后建立 `/var/www/basiccloud.net` 目录，准备好站点的html文件。
@@ -108,7 +109,6 @@ server {
        root /var/www/dolphin.basiccloud.net;
        index index.html;
 }
-
 ```
 
 然后建立 `/var/www/dolphin.basiccloud.net` 目录，准备好站点的html文件。
@@ -118,3 +118,4 @@ server {
 ```bash
 sudo ln -s /etc/nginx/sites-available/dolphin.basiccloud.net /etc/nginx/sites-enabled/dolphin.basiccloud.net
 ```
+
